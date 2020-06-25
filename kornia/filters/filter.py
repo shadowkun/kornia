@@ -27,7 +27,6 @@ def compute_padding(kernel_size: List[int]) -> List[int]:
             padding = computed_tmp
         out_padding.append(padding)
         out_padding.append(computed_tmp)
-        
     return out_padding
 
 
